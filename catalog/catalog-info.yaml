@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-spring-boot
+  description: Spring Boot SQL JPA
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - jpa
+    - sql
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=java-spring-boot'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team

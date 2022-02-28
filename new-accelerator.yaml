@@ -1,0 +1,13 @@
+accelerator:
+  displayName: java-spring-boot
+  description: Spring Boot aplicationp that accesses an SQL database. Option to include service binding to PosgreSQL database.
+  iconUrl: https://github.com/jmconelogin/jmconelogin/blob/main/custom_logo.png
+  tags: []
+  options:
+  - name: optionName
+    label: Nice Label
+    display: true
+    defaultValue: ""
+engine:
+  include:
+  - '**'
